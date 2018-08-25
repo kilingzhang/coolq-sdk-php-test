@@ -1,0 +1,17 @@
+{
+    "name": "kilingzhangg/coolq-sdk-php-test",
+    "authors": [
+        {
+            "name": "kilingzhang",
+            "email": "slight@kilingzhang.com"
+        }
+    ],
+    "require": {
+        "kilingzhang/coolq-php-sdk": "dev-master"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kilingzhang\\Tests\\": "src/"
+        }
+    }
+}
